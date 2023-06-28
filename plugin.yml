@@ -1,7 +1,7 @@
 name: TempRanks
 main: ErosionYT\TempRanks\Main
-version: 2.0.0
-api: 4.0.0
+version: 2.5.0+dev
+api: 5.0.0
 load: POSTWORLD
 author: ErosionYT
 description: Give temporary ranks to players
