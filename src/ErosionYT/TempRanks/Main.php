@@ -48,8 +48,6 @@ class Main extends PluginBase implements Listener
             return;
         }
         if (strtotime($exp) >= time()) {
-            $msg = $this->config->get("Rank Expired Message");
-            $msg = str_replace("{temprank}", $rank, $msg);
             $player->sendMessage("Your Rank:§c " . $rank . "§rHas Expired");
             $this->removeRank($playername);
         }
